@@ -7,3 +7,7 @@ __pycache__/
 *.pyc
 node_modules/
 .tmp-self-test/
+
+# Skylos scan output
+skylos-sec.json
+.skylos/

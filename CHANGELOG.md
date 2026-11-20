@@ -9,7 +9,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-### Fixed — package metadata (0.1.8-draft)
+## [0.1.8-draft] - 2026-11-20
+
+First tagged release since `v0.1.5-draft`. npm `0.1.6-draft` and `0.1.7-draft` were published from `main` without a tag, GitHub release or Zenodo version DOI; their changes (listed below) are included and archived with this release.
+
+### Fixed — package metadata
 
 - npm `homepage`, `repository` and `bugs`, the Python project URLs, and the repository URLs in `CITATION.cff` and `.zenodo.json` now point at `SunrisesIllNeverSee/tteop-spec` instead of the old `otep-spec` name.
 - DOIs and the cited release are unchanged (still `v0.1.5-draft`, `10.5281/zenodo.22180349`).

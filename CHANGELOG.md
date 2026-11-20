@@ -9,6 +9,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed — citation surfaces for `v0.1.8-draft`
+
+- `CITATION.cff`, the README citation, the `SPEC.md` header and the policy's §1 table and §5 citation now name the `v0.1.8-draft` version DOI `10.5281/zenodo.24394613`. The concept DOI is unchanged; `v0.1.5-draft` keeps its own version DOI.
+
 ## [0.1.8-draft] - 2026-11-20
 
 First tagged release since `v0.1.5-draft`. npm `0.1.6-draft` and `0.1.7-draft` were published from `main` without a tag, GitHub release or Zenodo version DOI; their changes (listed below) are included and archived with this release.

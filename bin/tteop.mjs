@@ -31,8 +31,14 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const VALIDATE_SCRIPT = join(__dirname, "..", "conformance", "tteop-validate.mjs");
 
 // Reported version follows package.json so it cannot drift from the release.
-const PKG = JSON.parse(readFileSync(join(__dirname, "..", "package.json"), "utf8"));
-const VERSION = `tteop/${PKG.version}`;
+// Read lazily so `help` and `validate` still work if package.json is absent.
+function cliVersion() {
+  try {
+    return `tteop/${JSON.parse(readFileSync(join(__dirname, "..", "package.json"), "utf8")).version}`;
+  } catch {
+    return "tteop/unknown";
+  }
+}
 
 function showHelp() {
   console.log(`TTEOP — Token Telemetry Evaluation Operator Protocol
@@ -79,7 +85,7 @@ function main() {
   }
 
   if (command === "version" || command === "--version" || command === "-v") {
-    console.log(VERSION);
+    console.log(cliVersion());
     process.exit(0);
   }
 

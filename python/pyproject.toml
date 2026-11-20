@@ -42,9 +42,9 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://signalaf.com/standard"
-Repository = "https://github.com/SunrisesIllNeverSee/otep-spec"
-Documentation = "https://github.com/SunrisesIllNeverSee/otep-spec#readme"
-"Bug Tracker" = "https://github.com/SunrisesIllNeverSee/otep-spec/issues"
+Repository = "https://github.com/SunrisesIllNeverSee/tteop-spec"
+Documentation = "https://github.com/SunrisesIllNeverSee/tteop-spec#readme"
+"Bug Tracker" = "https://github.com/SunrisesIllNeverSee/tteop-spec/issues"
 
 [project.scripts]
 sigrank-conformance = "sigrank_standard.conformance:main"

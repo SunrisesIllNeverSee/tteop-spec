@@ -25,11 +25,14 @@
 import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 import { spawn } from "node:child_process";
+import { readFileSync } from "node:fs";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const VALIDATE_SCRIPT = join(__dirname, "..", "conformance", "tteop-validate.mjs");
 
-const VERSION = "tteop/0.1.5-draft";
+// Reported version follows package.json so it cannot drift from the release.
+const PKG = JSON.parse(readFileSync(join(__dirname, "..", "package.json"), "utf8"));
+const VERSION = `tteop/${PKG.version}`;
 
 function showHelp() {
   console.log(`TTEOP — Token Telemetry Evaluation Operator Protocol

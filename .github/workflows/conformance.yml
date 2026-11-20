@@ -36,6 +36,10 @@ jobs:
       - name: 2. Run TTEOP conformance runner
         run: node conformance/tteop-runner.mjs
 
+      # Gate 2b: The packed npm tarball must run its own CLI (version + validate)
+      - name: 2b. Packed CLI runs (tteop version, tteop validate)
+        run: node conformance/tests/cli-package-test.mjs
+
       # Gate 3: Run runner self-tests proving failures are detected
       - name: 3. Run runner self-test
         run: python3 conformance/tests/runner-self-test.py

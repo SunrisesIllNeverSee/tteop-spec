@@ -1,6 +1,6 @@
 {
   "name": "tteop-spec",
-  "version": "0.1.8-draft",
+  "version": "0.1.9-draft",
   "description": "TTEOP — Token Telemetry Evaluation Operator Protocol: an open, vendor-neutral interoperability standard for measuring AI-operator token efficiency.",
   "type": "module",
   "bin": {
@@ -28,7 +28,8 @@
     "test:builder": "node conformance/tests/builder-regression-test.mjs",
     "test:builder-api": "node conformance/tests/builder-api-test.mjs",
     "test:alias": "node conformance/tests/alias-acceptance-test.mjs",
-    "test:python": "python3 -m pytest python/tests/test_build_envelope.py -v"
+    "test:python": "python3 -m pytest python/tests/test_build_envelope.py -v",
+    "test:cli-package": "node conformance/tests/cli-package-test.mjs"
   },
   "keywords": [
     "tteop",
@@ -56,6 +57,7 @@
   "files": [
     "bin/",
     "lib/",
+    "conformance/tteop-validate.mjs",
     "schemas/",
     "README.md"
   ],

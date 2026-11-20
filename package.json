@@ -1,6 +1,6 @@
 {
   "name": "tteop-spec",
-  "version": "0.1.7-draft",
+  "version": "0.1.8-draft",
   "description": "TTEOP — Token Telemetry Evaluation Operator Protocol: an open, vendor-neutral interoperability standard for measuring AI-operator token efficiency.",
   "type": "module",
   "bin": {
@@ -45,13 +45,13 @@
   ],
   "author": "Deric J McHenry <hello@signalaf.com>",
   "license": "Apache-2.0",
-  "homepage": "https://github.com/SunrisesIllNeverSee/otep-spec#readme",
+  "homepage": "https://github.com/SunrisesIllNeverSee/tteop-spec#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/SunrisesIllNeverSee/otep-spec.git"
+    "url": "https://github.com/SunrisesIllNeverSee/tteop-spec.git"
   },
   "bugs": {
-    "url": "https://github.com/SunrisesIllNeverSee/otep-spec/issues"
+    "url": "https://github.com/SunrisesIllNeverSee/tteop-spec/issues"
   },
   "files": [
     "bin/",

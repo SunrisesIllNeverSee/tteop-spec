@@ -9,6 +9,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Fixed — package metadata (0.1.8-draft)
+
+- npm `homepage`, `repository` and `bugs` and the Python project URLs now point at `SunrisesIllNeverSee/tteop-spec` instead of the old `otep-spec` name.
+- No protocol formulas, schemas, semantics or conformance requirements changed.
+
 ### Changed — DOI and Release Citation Policy v1 (owner-approved 2026-09-02)
 
 - Added `DOI-AND-RELEASE-CITATION-POLICY.md` as the binding release/citation metadata policy.

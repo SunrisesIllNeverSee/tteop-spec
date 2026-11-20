@@ -150,19 +150,20 @@ TTEOP metrics do NOT prove: code quality, task correctness, productivity, profes
 If you use TTEOP in your research or product, please cite:
 
 ```bibtex
-@software{mchenry_2026_tteop_0_1_5,
+@software{mchenry_2026_tteop_0_1_8,
   author       = {McHenry, Deric J},
   title        = {{TTEOP — Token Telemetry Evaluation Operator Protocol:
-                  Specification and Reference Implementation, v0.1.5-draft}},
+                  Specification and Reference Implementation, v0.1.8-draft}},
   year         = 2026,
-  version      = {0.1.5-draft},
-  url          = {https://doi.org/10.5281/zenodo.22180349},
-  doi          = {10.5281/zenodo.22180349}
+  version      = {0.1.8-draft},
+  url          = {https://doi.org/10.5281/zenodo.24394613},
+  doi          = {10.5281/zenodo.24394613}
 }
 ```
 
 - **All releases (concept DOI):** [10.5281/zenodo.22180348](https://doi.org/10.5281/zenodo.22180348)
-- **Current release (`v0.1.5-draft`):** [10.5281/zenodo.22180349](https://doi.org/10.5281/zenodo.22180349)
+- **Current release (`v0.1.8-draft`):** [10.5281/zenodo.24394613](https://doi.org/10.5281/zenodo.24394613)
+- **Previous release (`v0.1.5-draft`):** [10.5281/zenodo.22180349](https://doi.org/10.5281/zenodo.22180349)
 - **Historical manual `v0.1.3-draft` deposit:** [10.5281/zenodo.22179383](https://doi.org/10.5281/zenodo.22179383)
 
 See `CITATION.cff` for the full citation metadata and `DOI-AND-RELEASE-CITATION-POLICY.md` for the approved display and release rules.

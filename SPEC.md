@@ -8,7 +8,8 @@
 **Spec version string:** `tteop/0.1-draft`
 **Maturity:** Experimental — see §3
 
-- **Release citation (`v0.1.5-draft`):** DOI [10.5281/zenodo.22180349](https://doi.org/10.5281/zenodo.22180349)
+- **Release citation (`v0.1.8-draft`):** DOI [10.5281/zenodo.24394613](https://doi.org/10.5281/zenodo.24394613)
+- **Previous release (`v0.1.5-draft`):** DOI [10.5281/zenodo.22180349](https://doi.org/10.5281/zenodo.22180349)
 - **All releases (concept DOI):** [10.5281/zenodo.22180348](https://doi.org/10.5281/zenodo.22180348)
 - **Historical manual `v0.1.3-draft` deposit:** [10.5281/zenodo.22179383](https://doi.org/10.5281/zenodo.22179383). See `DOI-AND-RELEASE-CITATION-POLICY.md`.
 

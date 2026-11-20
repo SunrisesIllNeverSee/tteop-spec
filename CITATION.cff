@@ -7,14 +7,14 @@ authors:
     family-names: "McHenry"
     email: "hello@signalaf.com"
 repository-code: "https://github.com/SunrisesIllNeverSee/tteop-spec"
-url: "https://github.com/SunrisesIllNeverSee/tteop-spec/releases/tag/v0.1.5-draft"
+url: "https://github.com/SunrisesIllNeverSee/tteop-spec/releases/tag/v0.1.8-draft"
 identifiers:
   - type: doi
     value: "10.5281/zenodo.22180348"
     description: "Concept DOI for all TTEOP releases"
   - type: doi
-    value: "10.5281/zenodo.22180349"
-    description: "Version DOI for v0.1.5-draft"
+    value: "10.5281/zenodo.24394613"
+    description: "Version DOI for v0.1.8-draft"
 abstract: >-
   TTEOP (Token Telemetry Evaluation Operator Protocol) is an open,
   vendor-neutral interoperability standard for measuring AI-operator token
@@ -37,15 +37,15 @@ keywords:
   - mcp
   - conformance
 license: Apache-2.0
-version: "0.1.5-draft"
-date-released: "2026-09-03"
+version: "0.1.8-draft"
+date-released: "2026-11-20"
 preferred-citation:
   type: software
-  title: "TTEOP — Token Telemetry Evaluation Operator Protocol: Specification and Reference Implementation, v0.1.5-draft"
+  title: "TTEOP — Token Telemetry Evaluation Operator Protocol: Specification and Reference Implementation, v0.1.8-draft"
   authors:
     - given-names: "Deric J"
       family-names: "McHenry"
       email: "hello@signalaf.com"
   year: 2026
-  url: "https://doi.org/10.5281/zenodo.22180349"
-  doi: "10.5281/zenodo.22180349"
+  url: "https://doi.org/10.5281/zenodo.24394613"
+  doi: "10.5281/zenodo.24394613"

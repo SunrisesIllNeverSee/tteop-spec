@@ -9,6 +9,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.9-draft] - 2026-11-20
+
+### Fixed — CLI
+
+- `tteop validate` crashed in every npm release since `0.1.6-draft` (`Cannot find module .../conformance/tteop-validate.mjs`): the package `files` list dropped the script the CLI calls. `conformance/tteop-validate.mjs` is now packed.
+- `tteop version` reported a hard-coded `tteop/0.1.5-draft`; it now reads the version from `package.json`.
+- New CI gate `conformance/tests/cli-package-test.mjs` packs the tarball as `npm publish` would and runs `tteop version` and `tteop validate` from it.
+- No protocol formulas, schemas, semantics or conformance requirements changed. Protocol version remains `tteop/0.1-draft`.
+
 ### Changed — citation surfaces for `v0.1.8-draft`
 
 - `CITATION.cff`, the README citation, the `SPEC.md` header and the policy's §1 table and §5 citation now name the `v0.1.8-draft` version DOI `10.5281/zenodo.24394613`. The concept DOI is unchanged; `v0.1.5-draft` keeps its own version DOI.

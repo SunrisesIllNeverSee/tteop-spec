@@ -25,11 +25,20 @@
 import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 import { spawn } from "node:child_process";
+import { readFileSync } from "node:fs";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const VALIDATE_SCRIPT = join(__dirname, "..", "conformance", "tteop-validate.mjs");
 
-const VERSION = "tteop/0.1.5-draft";
+// Reported version follows package.json so it cannot drift from the release.
+// Read lazily so `help` and `validate` still work if package.json is absent.
+function cliVersion() {
+  try {
+    return `tteop/${JSON.parse(readFileSync(join(__dirname, "..", "package.json"), "utf8")).version}`;
+  } catch {
+    return "tteop/unknown";
+  }
+}
 
 function showHelp() {
   console.log(`TTEOP — Token Telemetry Evaluation Operator Protocol
@@ -76,7 +85,7 @@ function main() {
   }
 
   if (command === "version" || command === "--version" || command === "-v") {
-    console.log(VERSION);
+    console.log(cliVersion());
     process.exit(0);
   }
 

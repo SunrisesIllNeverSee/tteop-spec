@@ -6,8 +6,8 @@ authors:
   - given-names: "Deric J"
     family-names: "McHenry"
     email: "hello@signalaf.com"
-repository-code: "https://github.com/SunrisesIllNeverSee/otep-spec"
-url: "https://github.com/SunrisesIllNeverSee/otep-spec/releases/tag/v0.1.5-draft"
+repository-code: "https://github.com/SunrisesIllNeverSee/tteop-spec"
+url: "https://github.com/SunrisesIllNeverSee/tteop-spec/releases/tag/v0.1.5-draft"
 identifiers:
   - type: doi
     value: "10.5281/zenodo.22180348"

@@ -3,7 +3,7 @@
 TTEOP (Token Telemetry Evaluation Operator Protocol) specification.
 The SOLE interoperability protocol authority for AI operator token measurement.
 
-GitHub repo is `tteop-spec` (renamed from `otep-spec`; GitHub redirects the old URL, so never create a new repo named `otep-spec`). Release citation metadata (`CITATION.cff`, `.zenodo.json`) still names `otep-spec` under the DOI and release citation policy.
+GitHub repo is `tteop-spec` (renamed from `otep-spec`; GitHub redirects the old URL, so never create a new repo named `otep-spec`).
 npm package is `tteop-spec`. Protocol name is TTEOP.
 
 ## Context7 MCP — REQUIRED before writing library code

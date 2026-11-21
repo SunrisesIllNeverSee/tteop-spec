@@ -9,7 +9,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [0.1.9-draft] - 2026-11-20
+### Changed — citation surfaces for `v0.1.9-draft`
+
+- `CITATION.cff`, the README citation, the `SPEC.md` header and the policy's §1 table and §5 citation now name the `v0.1.9-draft` version DOI `10.5281/zenodo.24421578`. The concept DOI is unchanged; earlier releases keep their own version DOIs.
+
+## [0.1.9-draft] - 2026-11-21
 
 ### Fixed — CLI
 

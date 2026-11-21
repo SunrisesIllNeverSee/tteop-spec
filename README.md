@@ -153,16 +153,16 @@ If you use TTEOP in your research or product, please cite:
 @software{mchenry_2026_tteop_0_1_8,
   author       = {McHenry, Deric J},
   title        = {{TTEOP — Token Telemetry Evaluation Operator Protocol:
-                  Specification and Reference Implementation, v0.1.8-draft}},
+                  Specification and Reference Implementation, v0.1.9-draft}},
   year         = 2026,
-  version      = {0.1.8-draft},
-  url          = {https://doi.org/10.5281/zenodo.24394613},
-  doi          = {10.5281/zenodo.24394613}
+  version      = {0.1.9-draft},
+  url          = {https://doi.org/10.5281/zenodo.24421578},
+  doi          = {10.5281/zenodo.24421578}
 }
 ```
 
 - **All releases (concept DOI):** [10.5281/zenodo.22180348](https://doi.org/10.5281/zenodo.22180348)
-- **Current release (`v0.1.8-draft`):** [10.5281/zenodo.24394613](https://doi.org/10.5281/zenodo.24394613)
+- **Current release (`v0.1.9-draft`):** [10.5281/zenodo.24421578](https://doi.org/10.5281/zenodo.24421578)
 - **Previous release (`v0.1.5-draft`):** [10.5281/zenodo.22180349](https://doi.org/10.5281/zenodo.22180349)
 - **Historical manual `v0.1.3-draft` deposit:** [10.5281/zenodo.22179383](https://doi.org/10.5281/zenodo.22179383)
 

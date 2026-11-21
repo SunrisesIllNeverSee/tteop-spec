@@ -12,6 +12,7 @@
 | Continuing TTEOP concept; all releases | [`10.5281/zenodo.22180348`](https://doi.org/10.5281/zenodo.22180348) | Stable concept DOI for the GitHub–Zenodo release lineage |
 | TTEOP `v0.1.5-draft` | [`10.5281/zenodo.22180349`](https://doi.org/10.5281/zenodo.22180349) | Immutable version DOI for the archived `v0.1.5-draft` release |
 | TTEOP `v0.1.8-draft` | [`10.5281/zenodo.24394613`](https://doi.org/10.5281/zenodo.24394613) | Immutable version DOI for the archived `v0.1.8-draft` release (added 2026-11-20) |
+| TTEOP `v0.1.9-draft` | [`10.5281/zenodo.24421578`](https://doi.org/10.5281/zenodo.24421578) | Immutable version DOI for the archived `v0.1.9-draft` release (added 2026-11-21) |
 | Historical manual `v0.1.3-draft` deposit | [`10.5281/zenodo.22179383`](https://doi.org/10.5281/zenodo.22179383) | Immutable historical version DOI; separate manual-deposit lineage |
 
 ## 2. Citation rules
@@ -68,17 +69,17 @@ The release record must confirm:
 
 ## 5. Current approved citation
 
-For `v0.1.8-draft` (current; `v0.1.5-draft` remains citable by its own version DOI in §1):
+For `v0.1.9-draft` (current; earlier releases remain citable by their own version DOIs in §1):
 
 ```bibtex
 @software{mchenry_2026_tteop_0_1_8,
   author  = {McHenry, Deric J},
   title   = {{TTEOP — Token Telemetry Evaluation Operator Protocol:
-              Specification and Reference Implementation, v0.1.8-draft}},
+              Specification and Reference Implementation, v0.1.9-draft}},
   year    = {2026},
-  version = {0.1.8-draft},
-  url     = {https://doi.org/10.5281/zenodo.24394613},
-  doi     = {10.5281/zenodo.24394613}
+  version = {0.1.9-draft},
+  url     = {https://doi.org/10.5281/zenodo.24421578},
+  doi     = {10.5281/zenodo.24421578}
 }
 ```
 
